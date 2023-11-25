@@ -311,3 +311,22 @@ function formScript(){
   })
 }
 formScript();
+
+function messagePage(){
+  let button=document.querySelector(".rightPart form button");
+  let popUp=document.querySelector("#reset-form");
+  let cross=document.querySelector(".ri-close-fill");
+
+  button.addEventListener("click",function(){
+    popUp.style.scale=1;
+    popUp.style.width="40%";
+
+  })
+  cross.addEventListener("click",function(){
+    document.querySelector(".rightPart form").reset()
+    popUp.style.scale=0;
+    popUp.style.width=0;
+
+  })
+}
+messagePage();
