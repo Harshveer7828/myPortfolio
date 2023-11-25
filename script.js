@@ -299,3 +299,15 @@ contactMe()
 
 menuEvent()
 
+function formScript(){
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxPBl-PDTn9h1dhfZ3I3xVXuwSUK7F6rqrjszna9ehFAnHhECNfDC_rT8LVzveOdrRh/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+}
+formScript();
