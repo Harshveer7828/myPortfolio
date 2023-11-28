@@ -2,6 +2,10 @@
   font-family: gilroy;
   src: url(./Gilroy-Light.otf);
 }
+@font-face {
+  font-family: gilroyB;
+  src: url(./Gilroy-ExtraBold.otf);
+}
 
 * {
   margin: 0;
@@ -273,17 +277,8 @@ body {
 }
 .tab-container.active-tab {
   display: block;
-  /* scale: 1;
-  opacity: 1; */
+
 }
-/* #projects{
-  position: absolute;
-  left: -25vw;
-  width: 50vw;
-  background-color: transparent;
-  top: -15vw;
-  z-index: 1;
-} */
 
 .tab-container ul li a {
   color: #b54969;
@@ -327,6 +322,7 @@ body {
   left: 28%;
   position: absolute;
   color: black;
+  font-family: gilroyB;
 }
 .end h1 {
   font-size: 13vw;
@@ -335,6 +331,8 @@ body {
   left: 28%;
   position: absolute;
   color: #ff004f;
+  font-family: gilroyB;
+
 }
 .mid {
   height: 100%;
