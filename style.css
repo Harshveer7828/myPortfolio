@@ -561,6 +561,7 @@ body {
 }
 .menuButton {
   display: none;
+  z-index: 99999999;
 }
 .sidepage {
   display: none;
@@ -665,7 +666,7 @@ body {
     transform: translate(-5vw, 4vh);
     cursor: pointer;
     position: relative;
-    z-index: 99999;
+    z-index: 999999999;
   }
   .menuButton .lines {
     height: 2px;
