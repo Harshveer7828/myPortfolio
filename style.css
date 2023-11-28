@@ -674,7 +674,7 @@ body {
   .sidepage {
     height: 100vh;
     width: 70vw;
-    background-color: #ff004f;
+    background:linear-gradient(to bottom,#ff004f,#bc204f);
     position: absolute;
     right: -70vw;
     display: initial;
