@@ -416,6 +416,7 @@ body {
   font-size: 1.3vw;
   position: relative;
   z-index: 99;
+  background-color: red;
 }
 .head-titles h1 {
   font-size: 2vw;
@@ -423,7 +424,7 @@ body {
   font-family: montserrat;
   text-transform: uppercase;
   position: relative;
-  z-index: 999;
+  z-index: 9;
   transition: all ease 0.3s;
 }
 .head-titles h1 a {
@@ -564,6 +565,8 @@ body {
 }
 .sidepage {
   display: none;
+  z-index: 9999999;
+  position: relative;
 }
 #reset-form {
   height: 40vh;
