@@ -680,7 +680,7 @@ body {
     position: absolute;
     right: -70vw;
     display: initial;
-    z-index: 9999;
+    z-index: 99999999999;
   }
   .sidepage ul {
     display: initial;
@@ -787,6 +787,7 @@ body {
   }
   .head-titles i {
     font-size: 4vw;
+    z-index: 9;
   }
   /* contact page */
   #contactMe {
